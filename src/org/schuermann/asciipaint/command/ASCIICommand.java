@@ -13,7 +13,7 @@ public abstract class ASCIICommand implements ASCIICommandExecutor{
     protected String commandCharacter = null;
 
     protected abstract String getStatusText();
-    protected String getHelpText() {
+    public  String getHelpText() {
         return "no help information defined.";
     }
 

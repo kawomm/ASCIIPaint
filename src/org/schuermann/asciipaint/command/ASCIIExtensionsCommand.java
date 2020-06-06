@@ -42,7 +42,7 @@ public class ASCIIExtensionsCommand extends ASCIICommand {
         for (ASCIIExtensions.ExstensionInfo extensionInfo: ASCIIExtensions.asciiCExtensions.getExtensions() ){
             try {
                 ASCIIExtension extension = (ASCIIExtension)extensionInfo.getClazz().getDeclaredConstructor(ASCIIApp.class, String.class).newInstance((ASCIIApp)null,extensionInfo.getExtensionCharacter());
-                String helpText = extension.commandCharacter+" - "+command.getHelpText();
+                String helpText = extension.getCommandCharacter()+" - "+extension.getHelpText();
                 app.getCanvas().putString(2,row, helpText);
                 row++;
             } catch (InstantiationException e) {

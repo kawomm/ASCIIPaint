@@ -41,7 +41,7 @@ public class ASCIIHelpCommand extends ASCIICommand {
         for (ASCIICommands.CommandInfo commandInfo: ASCIICommands.asciiCommands.getCommands() ){
             try {
                 ASCIICommand command = (ASCIICommand)commandInfo.getClazz().getDeclaredConstructor(ASCIIApp.class, String.class).newInstance((ASCIIApp)null,commandInfo.getCommandCharacter());
-                String helpText = command.commandCharacter+" - "+command.getHelpText();
+                String helpText = command.getCommandCharacter()+" - "+command.getHelpText();
                 app.getCanvas().putString(2,row, helpText);
                 row++;
             } catch (InstantiationException e) {

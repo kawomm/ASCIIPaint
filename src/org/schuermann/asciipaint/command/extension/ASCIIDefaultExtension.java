@@ -1,13 +1,26 @@
 package org.schuermann.asciipaint.command.extension;
 
 import com.googlecode.lanterna.input.KeyType;
+import org.schuermann.asciipaint.ASCIIApp;
 import org.schuermann.asciipaint.ASCIIKeyEvent;
+import org.schuermann.asciipaint.command.ASCIICommand;
 
-public class ASCIIDefaultExtension implements ASCIIExtension {
+public class ASCIIDefaultExtension extends ASCIICommand implements ASCIIExtension {
 
     @Override
     public boolean execute() {
         return false;
+    }
+
+
+    public ASCIIDefaultExtension(ASCIIApp anApp, String aCommandCharacter){
+        super(anApp, aCommandCharacter);
+    }
+
+
+    @Override
+    protected String getStatusText() {
+        return "";
     }
 
     public boolean handle(ASCIIKeyEvent event) {
