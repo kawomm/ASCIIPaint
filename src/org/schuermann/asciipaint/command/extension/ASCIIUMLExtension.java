@@ -9,6 +9,10 @@ public class ASCIIUMLExtension extends ASCIIDefaultExtension {
         super(anApp, aCommandCharacter);
     }
 
+    public  String getHelpText() {
+        return "Helps you to draw UML diagrams quickly.";
+    }
+
     @Override
     public void handle1() {
         super.handle1();

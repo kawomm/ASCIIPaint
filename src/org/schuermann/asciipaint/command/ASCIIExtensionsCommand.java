@@ -62,6 +62,8 @@ public class ASCIIExtensionsCommand extends ASCIICommand {
 
     @Override
     public boolean handle(ASCIIKeyEvent event) {
+
+        
         app.getCanvas().invalidate();
         try {
             app.getCanvas().getTerminal().setCursorVisible(true);

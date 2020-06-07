@@ -6,13 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e4281b2-77f6-41e1-9fea-1d7fce0213e4" name="Default Changelist" comment="">
+    <list default="true" id="1e4281b2-77f6-41e1-9fea-1d7fce0213e4" name="Default Changelist" comment="Fixed compile bug after first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/schuermann/asciipaint/command/ASCIICommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/schuermann/asciipaint/command/ASCIICommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/schuermann/asciipaint/command/ASCIICommandExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/schuermann/asciipaint/command/ASCIICommandExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ASCIIPaint_jar/ASCIIPaint.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ASCIIPaint_jar/ASCIIPaint.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/schuermann/asciipaint/command/ASCIIExtensionsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/schuermann/asciipaint/command/ASCIIExtensionsCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/schuermann/asciipaint/command/ASCIIHelpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/schuermann/asciipaint/command/ASCIIHelpCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/schuermann/asciipaint/command/extension/ASCIIDefaultExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/schuermann/asciipaint/command/extension/ASCIIDefaultExtension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/schuermann/asciipaint/command/ASCIIRectCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/schuermann/asciipaint/command/ASCIIRectCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/schuermann/asciipaint/command/extension/ASCIIUMLExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/schuermann/asciipaint/command/extension/ASCIIUMLExtension.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +93,19 @@
       <option name="presentableId" value="Default" />
       <updated>1586188749138</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fixed compile bug after first commit">
+      <created>1591448191408</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591448191408</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed compile bug after first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed compile bug after first commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="215" key="#Notifications" timestamp="1591440383020">
@@ -147,41 +158,45 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="0" y="23" width="1680" height="947" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.23.1680.947@0.23.1680.947" timestamp="1586235758851" />
-    <state width="819" height="266" key="GridCell.Tab.0.bottom" timestamp="1591160773577">
+    <state x="427" y="124" key="CommitChangelistDialog2" timestamp="1591535474869">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="427" y="124" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1591535474869" />
+    <state width="819" height="266" key="GridCell.Tab.0.bottom" timestamp="1591535350492">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="240" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1586265313167" />
-    <state width="819" height="266" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1591160773577" />
+    <state width="819" height="266" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1591535350492" />
     <state width="1638" height="247" key="GridCell.Tab.0.bottom/0.23.1680.944@0.23.1680.944" timestamp="1587633202295" />
     <state width="1638" height="312" key="GridCell.Tab.0.bottom/0.23.1680.947@0.0.1680.1050" timestamp="1586952605874" />
     <state width="1638" height="312" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1587037460111" />
     <state width="1638" height="247" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1587969723947" />
     <state width="1638" height="312" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1586354749763" />
-    <state width="819" height="266" key="GridCell.Tab.0.center" timestamp="1591160773576">
+    <state width="819" height="266" key="GridCell.Tab.0.center" timestamp="1591535350491">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="240" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1586265313165" />
-    <state width="819" height="266" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1591160773576" />
+    <state width="819" height="266" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1591535350491" />
     <state width="1638" height="247" key="GridCell.Tab.0.center/0.23.1680.944@0.23.1680.944" timestamp="1587633202294" />
     <state width="1638" height="312" key="GridCell.Tab.0.center/0.23.1680.947@0.0.1680.1050" timestamp="1586952605833" />
     <state width="1638" height="312" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1587037460110" />
     <state width="1638" height="247" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1587969723947" />
     <state width="1638" height="312" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1586354749763" />
-    <state width="819" height="266" key="GridCell.Tab.0.left" timestamp="1591160773576">
+    <state width="819" height="266" key="GridCell.Tab.0.left" timestamp="1591535350490">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="240" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1586265313165" />
-    <state width="819" height="266" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1591160773576" />
+    <state width="819" height="266" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1591535350490" />
     <state width="1638" height="247" key="GridCell.Tab.0.left/0.23.1680.944@0.23.1680.944" timestamp="1587633202294" />
     <state width="1638" height="312" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1587037460110" />
     <state width="1638" height="312" key="GridCell.Tab.0.left/0.23.1680.949@0.0.1680.1050" timestamp="1586327177258" />
     <state width="1638" height="247" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1587969723946" />
     <state width="1638" height="312" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1586354749762" />
-    <state width="819" height="266" key="GridCell.Tab.0.right" timestamp="1591160773577">
+    <state width="819" height="266" key="GridCell.Tab.0.right" timestamp="1591535350492">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1638" height="240" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1586265313166" />
-    <state width="819" height="266" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1591160773577" />
+    <state width="819" height="266" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1591535350492" />
     <state width="1638" height="247" key="GridCell.Tab.0.right/0.23.1680.944@0.23.1680.944" timestamp="1587633202295" />
     <state width="1638" height="312" key="GridCell.Tab.0.right/0.23.1680.947@0.0.1680.1050" timestamp="1586952605864" />
     <state width="1638" height="312" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1587037460111" />
@@ -227,10 +242,10 @@
       <screen x="0" y="23" width="1680" height="947" />
     </state>
     <state x="199" y="46" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1586425225822" />
-    <state x="440" y="290" key="Vcs.Push.Dialog.v2" timestamp="1591440335234">
+    <state x="440" y="290" key="Vcs.Push.Dialog.v2" timestamp="1591448229737">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="440" y="290" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1591440335234" />
+    <state x="440" y="290" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1591448229737" />
     <state x="496" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1591440275548">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

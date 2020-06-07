@@ -49,7 +49,7 @@ public class ASCIIRectCommand extends ASCIICommand  {
 
         if (key == 'r') {
             app.getModel().addRect(new ASCIIRect(x1, y1, x2 - x1 + 1, y2 - y1 + 1));
-            app.getModel().add(new ASCIIUMLClass(x1+20, y1+5));
+            //app.getModel().add(new ASCIIUMLClass(x1+20, y1+5));
         }
         return super.handle(event);
     }
